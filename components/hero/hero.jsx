@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { DiGithubAlt  } from "react-icons/di";
 import { AiFillTwitterCircle } from "react-icons/ai"
+import { BiTask } from "react-icons/bi";
 
 const Hero =()=> (
     <>
@@ -13,7 +14,10 @@ const Hero =()=> (
         <a><AiFillTwitterCircle/>Twitter /</a> 
         </Link>
         <Link href="https://github.com/adetyaz">
-           <a> <DiGithubAlt />Github </a>
+           <a> <DiGithubAlt />Github /</a>
+        </Link>
+        <Link href="https://internship.zuri.team">
+           <a> <BiTask />HNG8 </a>
         </Link>
     </div>
     </section>

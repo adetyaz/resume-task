@@ -1,4 +1,4 @@
-import { DiGithubBadge, DiJavascript, DiJekyllSmall } from "react-icons/di";
+import { DiGithubBadge, DiJavascript, DiJekyllSmall, DiAtom } from "react-icons/di";
 import Link from 'next/link'
 
 const About =()=>(
@@ -29,7 +29,7 @@ const About =()=>(
                 <h4 className="about__skill"><DiJekyllSmall className="about__icon" />Technical Writing</h4>     
             </div>
             <div className="about__skillset">
-                <h4 className="about__skill"><DiJekyllSmall className="about__icon" />Web Development</h4>     
+                <h4 className="about__skill"><DiAtom className="about__icon" />Web Development</h4>     
             </div>
         </div>
     </section>
