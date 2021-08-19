@@ -38,4 +38,9 @@
         color: $brown;
         cursor: pointer;
     }
+    &__image{
+        height: 2.5rem;
+        position: relative;
+        top: .8rem;
+    }
 }

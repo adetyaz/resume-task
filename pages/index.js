@@ -13,7 +13,7 @@ export default function Home() {
       <Head>
         <title>Resume - Lasisi Adetayo</title>
         <meta name="description" content="A resume website for Lasisi Adetayo" />
-        <link rel="icon" href="/images/logo.png" />
+        <link rel="icon" href="/images/i4g.png" />
       </Head>
       <Header />
       <main>

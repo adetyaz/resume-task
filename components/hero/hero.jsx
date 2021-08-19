@@ -17,7 +17,7 @@ const Hero =()=> (
            <a> <DiGithubAlt />Github /</a>
         </Link>
         <Link href="https://internship.zuri.team">
-           <a> <BiTask />HNG8 </a>
+           <a> <img src="/images/i4g.png"  alt="i4g logo" className="hero__image" /> HNG8 </a>
         </Link>
     </div>
     </section>
