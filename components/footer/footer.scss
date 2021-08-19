@@ -1,0 +1,15 @@
+.footer{
+    background: $black;
+    padding: 4rem;
+    &__copyright{
+        text-align: center;
+        font-size: 1rem;
+        color: $cream;
+        text-transform: capitalize;
+        a{
+            cursor: pointer;
+            color: rgb(25, 65, 241);
+            margin: .2rem;
+        }
+    }
+}

@@ -1,0 +1,47 @@
+.profile{
+    &__title{
+        text-align: center;
+        color: $brown;
+        font-size: 1.2rem;
+        text-transform: capitalize;
+    }
+    &__subtitle{
+        text-align: center;
+        color: $black;
+        font-size: 2rem;
+    }
+    &__content{
+        display: flex;
+        justify-content: space-evenly;
+        @include respond(small-screen){
+            flex-direction: column;
+        }
+    }
+    &__career{
+        flex: 0 0 50%;
+    }
+    &__education{
+        flex: 0 0 50%;
+    }
+    &__date{
+        font-size: 1rem;
+        color: $grey;
+    }
+    &__workplace{
+        font-size: 1.2rem;
+    }
+    &__role{
+        font-size: 1.5rem;
+    }
+
+}
+
+.MuiTimeline-alignLeft{
+    position: relative;
+    right: 8rem;
+}
+
+.MuiTimeline-alignRight{
+    position: relative;
+    left: 8rem;
+}

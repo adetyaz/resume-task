@@ -1,0 +1,16 @@
+.header{
+    // position: relative;
+    z-index: 1;
+}
+
+.logo-box{
+    top: 2rem;
+    left: 2rem;
+    position: relative;
+}   
+
+.logo{
+    height: 3rem;
+    width: 3rem;
+    cursor: pointer;
+}

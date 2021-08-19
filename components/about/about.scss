@@ -1,0 +1,35 @@
+.about{
+    display: flex;
+    justify-content: space-evenly;
+    @include respond(small-screen){
+        flex-direction: column;
+    }
+    &__me{
+        flex: 0 0 50%;
+        padding: 3rem 3rem;
+        background: linear-gradient(to bottom, rgba(88, 88, 88, 0.897), rgba(88, 88, 88, 0.884)), url('../../public/images/about.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+       
+    }
+    &__skills{
+        background: $cream;
+        padding: 3rem 3rem;
+    }
+    &__title{
+        color: $brown;
+        text-transform: capitalize;
+        font-size: 1.2rem;
+    }
+    &__subtitle{
+        color: $black;
+        font-size: 2rem;
+        text-transform: capitalize;
+    }
+    &__text{
+        font-size: 1rem;
+        &--white{
+            color: $white;
+        }
+    }
+}

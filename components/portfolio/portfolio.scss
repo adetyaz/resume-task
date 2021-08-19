@@ -1,0 +1,22 @@
+.portfolio{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.959), rgba(0, 0, 0, 0.945)), url('../../public/images/portfolio.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 3rem 0;
+    &__title{
+        text-align: center;
+        color: $brown;
+        font-size: 1.2rem;
+        text-transform: uppercase
+    }
+    &__subtitle{
+        text-align: center;
+        color: $white;
+        font-size: 2rem;
+    }
+}
+
+a{
+    cursor: pointer;
+}
