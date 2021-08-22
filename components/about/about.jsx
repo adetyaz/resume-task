@@ -1,4 +1,4 @@
-import { DiGithubBadge, DiJavascript, DiJekyllSmall, DiAtom } from "react-icons/di";
+import { DiGithubBadge, DiJavascript, DiJavascript1, DiReact,DiJekyllSmall, DiAtom, DiGitBranch, DiGithub, DiSass, DiCss3, DiHtml5 } from "react-icons/di";
 import Link from 'next/link'
 
 const About =()=>(
@@ -15,22 +15,53 @@ const About =()=>(
             </button>
             </Link>
         </div>
-        <div className="about__skills">
+        <div className="about__skills-list">
             <h3 className="about__title">services</h3>
             <h2 className="about__subtitle">what i do</h2>
             <p className="about__text">I have developed some skills over the years and I'm enthusiastic to add more to what I know already</p>
             <div className="about__skillset">
                 <h4 className="about__skill"><DiJavascript className="about__icon" />Responsive Web Design</h4>
+                <div className="about__skills">
+                    <div className="about__skill-icon">
+                        <DiHtml5 /> 
+                    </div>
+                    <div className="about__skill-icon">
+                        <DiCss3/> 
+                    </div>
+                    <div className="about__skill-icon">
+                        <DiSass /> 
+                    </div>
+                    <div className="about__skill-icon">
+                        <DiJavascript1 /> 
+                    </div>
+                </div>    
             </div>
             <div className="about__skillset">
-                <h4 className="about__skill"><DiGithubBadge className="about__icon" />Git</h4>
+                <h4 className="about__skill"><DiGithubBadge className="about__icon" />Version Control</h4>
+                <div className="about__skills">
+                    <div className="about__skill-icon">
+                        <DiGitBranch /> 
+                    </div>
+                    <div className="about__skill-icon">
+                        <DiGithub /> 
+                    </div>
+                </div>
+            </div>
+            <div className="about__skillset">
+                <h4 className="about__skill"><DiAtom className="about__icon" />Frameworks</h4>
+                <div className="about__skills">
+                    <div className="about__skill-icon">
+                        <DiReact /> 
+                    </div>
+                    <div className="about__skill-icon">
+                        <img src="/images/next-js.svg" alt="icon" className="icon-image"/>
+                    </div>
+                </div>     
             </div>
             <div className="about__skillset">
                 <h4 className="about__skill"><DiJekyllSmall className="about__icon" />Technical Writing</h4>     
             </div>
-            <div className="about__skillset">
-                <h4 className="about__skill"><DiAtom className="about__icon" />Web Development</h4>     
-            </div>
+            
         </div>
     </section>
 )   

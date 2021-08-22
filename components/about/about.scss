@@ -12,7 +12,7 @@
         background-size: cover;
        
     }
-    &__skills{
+    &__skills-list{
         background: $cream;
         padding: 3rem 3rem;
     }
@@ -35,4 +35,25 @@
     &__skill{
         font-size: 1.3rem;
     }
+    &__skill-icon{
+        font-size: 3rem;
+        background-image: linear-gradient(to right top, #cef464, #7affca, #87ffff, #d8fcff, #fdfdfd);
+        border-radius: $border-radius;
+        border: 1px solid transparent;
+        box-shadow: $box-shadow;
+        margin-left: 1.5rem;
+        height: 3rem;
+        width: 3rem;
+        color: $black;
+    }
+    &__skills{
+        display: flex;
+
+
+    }
+}
+
+.icon-image{
+    height: 2.5rem;
+    margin: .2rem;
 }
