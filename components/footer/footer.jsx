@@ -5,7 +5,7 @@ const Footer =()=>(
         <p className="footer__copyright">
             <Link href="https://internship.zuri.team">
                 <a>
-                    <img src="/images/zuri.png" alt="zuri logo" /> 
+                    <img src="/images/zuri.png" alt="zuri logo" className="footer__image" /> 
                 </a> 
             </Link>
              &mdash; all rights reserved. 
