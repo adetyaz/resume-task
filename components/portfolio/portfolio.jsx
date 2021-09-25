@@ -7,20 +7,20 @@ const Porfolio =()=>(
     <section className="portfolio">
         <h3 className="portfolio__title">portfolio</h3>
         <h2 className="portfolio__subtitle">What I Have Done</h2>
-        <VerticalTimeline animate={false}>
+        <VerticalTimeline animate={true}>
         <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentArrowStyle={{ borderRight: '7px solid  rgb(0 0 0)' }}
             iconStyle={{ background: 'rgb(0 0 0)', color: '#fff' }}
         >
-            <h3 className="vertical-timeline-element-title">Oja Stores</h3>
+            <h3 className="vertical-timeline-element-title">ThyFlow Website</h3>
             <p>
-            <Link href="github.com/adetyaz/Oja">
+            {/* <Link href="github.com/adetyaz/Oja">
                     <a href="">
                         <DiGithubBadge /> Github
                     </a>
-                </Link>, 
-            <Link href="https://ojastores.netlify.app/">
+                </Link>,  */}
+            <Link href="https://www.thyflow.com/">
                     <a href="">
                         <DiReact /> Web Demo
                     </a>
@@ -39,6 +39,25 @@ const Porfolio =()=>(
                     </a>
                 </Link>, 
             <Link href="https://edenlife-clone.netlify.app/">
+                    <a href="">
+                        <DiReact /> Web Demo
+                    </a>
+                </Link>
+            </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentArrowStyle={{ borderRight: '7px solid  rgb(0 0 0)' }}
+            iconStyle={{ background: 'rgb(0 0 0)', color: '#fff' }}
+        >
+            <h3 className="vertical-timeline-element-title">Oja Stores</h3>
+            <p>
+            <Link href="github.com/adetyaz/Oja">
+                    <a href="">
+                        <DiGithubBadge /> Github
+                    </a>
+                </Link>, 
+            <Link href="https://ojastores.netlify.app/">
                     <a href="">
                         <DiReact /> Web Demo
                     </a>

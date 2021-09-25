@@ -19,7 +19,7 @@ export default function Home() {
       <main>
         <Hero />
         <About />
-        <Profile />
+        {/* <Profile /> */}
         <Porfolio />
       </main>
       <Footer />
