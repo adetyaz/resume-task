@@ -20,7 +20,7 @@ const Porfolio =()=>(
                         <DiGithubBadge /> Github
                     </a>
                 </Link>,  */}
-            <Link href="https://www.thyflow.com/">
+            <Link href="https://thyflow-official.netlify.app/">
                     <a href="">
                         <DiReact /> Web Demo
                     </a>
