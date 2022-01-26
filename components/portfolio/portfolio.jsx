@@ -15,15 +15,11 @@ const Porfolio =()=>(
         >
             <h3 className="vertical-timeline-element-title">ThyFlow Website</h3>
             <p>
-            {/* <Link href="github.com/adetyaz/Oja">
-                    <a href="">
+            <Link href="github.com/adetyaz/Oja">
                         <DiGithubBadge /> Github
-                    </a>
-                </Link>,  */}
+                </Link>, 
             <Link href="https://thyflow-official.netlify.app/">
-                    <a href="">
                         <DiReact /> Web Demo
-                    </a>
                 </Link>
             </p>
         </VerticalTimelineElement>
@@ -34,14 +30,10 @@ const Porfolio =()=>(
             <h3 className="vertical-timeline-element-title">EdenLife Clone</h3>
             <p>
             <Link href="github.com/adetyaz/Eden">
-                    <a href="">
                         <DiGithubBadge /> Github
-                    </a>
                 </Link>, 
             <Link href="https://edenlife-clone.netlify.app/">
-                    <a href="">
                         <DiReact /> Web Demo
-                    </a>
                 </Link>
             </p>
         </VerticalTimelineElement>
@@ -53,14 +45,10 @@ const Porfolio =()=>(
             <h3 className="vertical-timeline-element-title">Oja Stores</h3>
             <p>
             <Link href="github.com/adetyaz/Oja">
-                    <a href="">
                         <DiGithubBadge /> Github
-                    </a>
                 </Link>, 
             <Link href="https://ojastores.netlify.app/">
-                    <a href="">
                         <DiReact /> Web Demo
-                    </a>
                 </Link>
             </p>
         </VerticalTimelineElement>
@@ -71,9 +59,7 @@ const Porfolio =()=>(
             <h3 className="vertical-timeline-element-title">Room Booking App</h3>
             <p>
             <Link href="https://book-a-room.netlify.app/">
-                    <a href="">
                         <DiReact /> Web Demo
-                    </a>
                 </Link>
             </p>
         </VerticalTimelineElement>
@@ -85,14 +71,10 @@ const Porfolio =()=>(
            
             <p>
             <Link href="github.com/adetyaz/WeJapa">
-                    <a href="">
                         <DiGithubBadge /> Github
-                    </a>
                 </Link>, 
             <Link href="https://wejapa.netlify.app/">
-                    <a href="">
                         <DiReact /> Web Demo
-                    </a>
                 </Link>
             </p>
         </VerticalTimelineElement>
@@ -104,14 +86,10 @@ const Porfolio =()=>(
            
             <p>
             <Link href="github.com/adetyaz/seamless">
-                    <a href="">
                         <DiGithubBadge /> Github
-                    </a>
                 </Link>, 
             <Link href="https://seamless-video.netlify.app/">
-                    <a href="">
                         <DiReact /> Web Demo
-                    </a>
                 </Link>
             </p>
         </VerticalTimelineElement>
@@ -123,9 +101,7 @@ const Porfolio =()=>(
             <p>
         
                 <Link href="https://ourdoor-tour.netlify.app/">
-                    <a href="">
                         <DiReact /> Web Demo
-                    </a>
                 </Link>
             </p>
         </VerticalTimelineElement>
